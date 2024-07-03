@@ -23,10 +23,10 @@ HOJESTR=(datetime.today().strftime('%d/%m/%Y'))
 HOJE = datetime.strptime(HOJESTR, '%d/%m/%Y').date()
 
 
-server = 'BCSQLDELL2' 
-database = 'SCF' 
-username = 'RSANTOS' 
-password = 'R4F43L' 
+server = 'xxxxxx' 
+database = 'xx' 
+username = 'xx' 
+password = 'xxxxxxxx' 
 cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
 
@@ -1017,7 +1017,5 @@ cnxn.close()
 
 # concluido()
 
-
- #%%
 
 
